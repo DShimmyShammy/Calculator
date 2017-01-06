@@ -1,1 +1,15 @@
 // JavaScript Document
+
+// Change Display
+function d(val) {
+		document.getElementById("d").value = val;
+}
+
+// Type numbers and operators
+function v(val) {
+		docuemtn.getElementById("d").value += val;
+}
+
+// Evaluate the equation
+function e( )  {
+}
