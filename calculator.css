@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	background-image: url(Jse.png);
+}
 /* Calculator Box */
 .box {
 	background-color: black;
