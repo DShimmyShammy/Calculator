@@ -1,5 +1,7 @@
 // JavaScript Document
 
+var decimal = false;
+
 // Change Display
 function d(val) {
 		document.getElementById("d") .value = val;
@@ -7,6 +9,8 @@ function d(val) {
 
 // Type numbers and operators
 function v(val) {
+		if(val == ".")
+			var decimal = true;
 		document.getElementById("d") .value += val;
 }
 
