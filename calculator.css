@@ -1,9 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	background-image: url(Jse.png);
+}
 /* Calculator Box */
 .box {
-	background-color: #e5e7ea;
 	height: 300px;
 	width: 250px;
 	border-radius: 10px;
@@ -14,7 +16,7 @@
 
 /* Display */
 .display {
-	background-color: #bfc4ce;
+	background-color: #494949;
 	width: 220px;
 	position: relative;
 	left: 15px;
@@ -49,19 +51,19 @@
 }
 .button.function {
 	color: white;
-	background-color: #c64f81;
+	background-color: red;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 .button.operator {
 	color: white;
-	background-color: #4d5966;
+	background-color: blue;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
 .button.number {
-	color: white;
-	background-color: #7091ab;
+	color: black;
+	background-color: lightgreen;
 	border-bottom: black 2px solid;
 	border-top: 2px #6f6f6f solid;
 }
