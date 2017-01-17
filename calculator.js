@@ -1,5 +1,7 @@
 // JavaScript Document
 
+var mem = 0;
+
 var decimal = false;
 
 // Change Display
